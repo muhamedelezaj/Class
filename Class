@@ -1,0 +1,13 @@
+class Vehicle:
+      def __init__(self, max_speed, mileage, nr_of_doors,marsch):
+          self.max_speed = max_speed
+          self.mileage = mileage
+          self.nr_of_doors = nr_of_doors
+          self.marsch = marsch
+
+VW = Vehicle(max_speed=200, mileage=200000, nr_of_doors=5,marsch=5)
+
+BMW = Vehicle(220, 150000, 3,6)
+
+print(VW.nr_of_doors, VW.mileage,VW.marsch)
+print(BMW.nr_of_doors, BMW.mileage,BMW.marsch)
